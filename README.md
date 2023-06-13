@@ -1,5 +1,4 @@
 # ip_mini-project
-all api key will be stored in api text 
-
-
-@jathin : from main.py work on places endpoint and define search function in other python file and call in flask
+This is a flask application made for our mini_project 
+Aim: aim is to provide a website to user to make itinenrary based on place which is searched
+can view website here:https://flask-miniproject-mvj.onrender.com/
