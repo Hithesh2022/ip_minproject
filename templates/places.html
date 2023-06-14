@@ -58,7 +58,7 @@
         <h3>{{ place.name }}</h3>
         {% if place.photo_url %}
         <a href="{{ url_for('place_info', place_id=place.place_id) }}">
-          <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&maxheight=400&photoreference={{ place.photo_url }}&key=AIzaSyAfWP_iKshvMZmoUhz4VKXC4y3xoDTmE-4" alt="Place Image">
+          <img src="https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&maxheight=400&photoreference={{ place.photo_url }}&key=placeAPI" alt="Place Image">
           </a>
         {% endif %}
         {% if place.rating %}
