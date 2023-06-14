@@ -28,7 +28,7 @@ def process_form():
     print(longitude)
     # Do something with the retrieved values, such as storing them in a database
     
-    api_key = 'AIzaSyAfWP_iKshvMZmoUhz4VKXC4y3xoDTmE-4'
+    api_key = 'Place Your Api'
     if 'all' in place_types:
         url = f'https://maps.googleapis.com/maps/api/place/nearbysearch/json?location={latitude},{longitude}&radius={radiuskm}&key={api_key}'
     else:
